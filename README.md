@@ -1,8 +1,10 @@
-# React + Vite
+# React single page portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Things I learned making this
+- First time using the context API outside of a lesson; used for dark mode with localstorage
+- named importing of images
+- making a ...module.css style sheet
+- root variables in css
+- nested CSS, never say that before or even heard of it
+- importing all google fonts at once, i think i forgot about that
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

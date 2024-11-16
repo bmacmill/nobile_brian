@@ -40,7 +40,7 @@ export default function Hero() {
             </span>
             <p>learning to build modern react web apps by building modern react web apps</p>
             <a href={CV} download>
-                <button className="hover">resume</button>
+                <button className="hover">Resume</button>
             </a>
         </section>
     )
