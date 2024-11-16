@@ -3,7 +3,7 @@ import heroImage from "../../assets/hero-img.png"
 import sun from "../../assets/sun.svg"
 import moon from "../../assets/moon.svg"
 import mediumIcon from "../../assets/icons8-medium.svg"
-import mediumIconDark from "../../assets/medium-svgrepo-com(2).svg"
+import mediumIconDark from "../../assets/icons8-medium-drk.svg"
 import linkedInIcon from "../../assets/linkedin-light.svg"
 import linkedInIconDark from "../../assets/linkedin-dark.svg"
 import githubIcon from "../../assets/github-light.svg"
@@ -28,7 +28,7 @@ export default function Hero() {
                 <img onClick={toggleTheme} className={styles.colorMode} src={themeIcon} alt="color mode icon" />
             </div>
 
-            <div>
+            <div className={styles.info}>
                 <h1>Brian Nobile</h1>
             </div>
 
@@ -38,10 +38,10 @@ export default function Hero() {
                 <a href="#" alt="social logo"><img src={linkedInIconLogo} alt="linked in icon" /></a>
                 <a href="#" alt="social logo"><img src={githubIconLogo} alt="github icon" /></a>
             </span>
-            <p>learning to build modern react web apps by building modern react web apps</p>
+            <p className={styles.description}>learning to build modern react web apps by building modern react web apps</p>
             <a href={CV} download>
                 <button className="hover">Resume</button>
             </a>
-        </section>
+        </section >
     )
 }
