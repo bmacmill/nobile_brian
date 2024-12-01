@@ -11,7 +11,7 @@
     min-height: 500px;
 }
 
-    .hero {
+  .hero {
       max-width: 200px;
     }
   
@@ -21,19 +21,16 @@
       justify-content: center;
     }
     
-      a {
+    a {
         margin: 0;
+        width: fit-content;
+        align-self: center;
       }
       
-        a > img {
+      a > img {
           width: 30px;
         }
- 
-  
-  a {
-    width: fit-content;
-    align-self: center;
-  }
+
   button {
       background-color: var(--btn-color);
       color: var(--btn-text-color);
@@ -71,6 +68,7 @@
     }
     
     .description {
+      /* never saw this before 24 characters width*/
       max-width: 24ch;
       align-self: center;
     }
