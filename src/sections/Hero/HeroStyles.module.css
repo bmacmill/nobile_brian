@@ -27,9 +27,9 @@
         align-self: center;
       }
       
-      a > img {
+      /* a > img {
           width: 30px;
-        }
+        } */
 
   button {
       background-color: var(--btn-color);

@@ -5,8 +5,8 @@
 - named importing of images
 - making a ...module.css style sheet
 - root variables in css
-- nested CSS, never say that before or even heard of it, not working for me
+- nested CSS, never saw that before or even heard of it, not working for me
 - importing all google fonts at once, i think i forgot about that
-- 100dvh instead of vh; section takes up entire screen
+- 100dvh instead of vh; section takes up entire device screen 
 - using svgs
 

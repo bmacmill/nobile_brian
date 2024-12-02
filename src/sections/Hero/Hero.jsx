@@ -11,7 +11,7 @@ import githubIconDark from "../../assets/github-dark.svg"
 import CV from "../../assets/cv.pdf"
 import { useTheme } from "../../common/ThemeContext"
 
-// https://www.youtube.com/watch?v=ZpIel9cv4Jk&t=2683s
+// https://www.youtube.com/watch?v=ZpIel9cv4Jk&t=2683s -- 1:23
 export default function Hero() {
     const { theme, toggleTheme } = useTheme()
 
@@ -38,7 +38,7 @@ export default function Hero() {
                 <a href="#" alt="social logo"><img src={linkedInIconLogo} alt="linked in icon" /></a>
                 <a href="#" alt="social logo"><img src={githubIconLogo} alt="github icon" /></a>
             </span>
-            <p className={styles.description}>learning to build modern react web apps by building modern react web apps</p>
+            <p className={styles.description}>Learning to build modern react web apps by building modern react web apps</p>
             <a href={CV} download>
                 <button className="hover">Resume</button>
             </a>
