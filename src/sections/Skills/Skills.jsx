@@ -31,7 +31,7 @@ export default function Skills() {
             <div className={styles.skillList}>
                 <SkillList src={checkIcon} skill="Product" />
                 <SkillList src={checkIcon} skill="Documentation" />
-                <SkillList src={checkIcon} skill="Checkmark entuhsiast" />
+                <SkillList src={checkIcon} skill="Checkmark enthusiast" />
 
             </div>
         </section>

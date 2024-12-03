@@ -3,14 +3,14 @@
     flex-direction: column;
     text-align: center;
   
-    span {
+      span {
       display: flex;
       align-items: center;
       gap: .5em;
     }
   
     img {
-      width: 20px;
+      width: 1em;
       
     }
   }
@@ -21,12 +21,12 @@
     align-self: center;
     flex-wrap: wrap;
     gap: 40px;
-    /* max-width: 26ch; */
+    max-width: 36ch;
   }
 
 hr {
   width: 100px;
-  height: 1px;
+  height: 2px;
   border: none;
   background-color: var(--text-color);
   margin: 30px auto;
