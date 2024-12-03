@@ -11,7 +11,7 @@ import githubIconDark from "../../assets/github-dark.svg"
 import CV from "../../assets/cv.pdf"
 import { useTheme } from "../../common/ThemeContext"
 
-// https://www.youtube.com/watch?v=ZpIel9cv4Jk&t=2683s -- 1:33
+// https://www.youtube.com/watch?v=ZpIel9cv4Jk&t=2683s -- 1:49
 export default function Hero() {
     const { theme, toggleTheme } = useTheme()
 
