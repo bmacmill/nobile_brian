@@ -59,7 +59,7 @@
     
     .colorMode {
       position: absolute;
-      right: 1rem;
+      /* right: 0; */
       width: 1.5rem;
     }
     
@@ -69,8 +69,9 @@
     
     .description {
       /* never saw this before 24 characters width*/
-      max-width: 24ch;
+      max-width: 30ch;
       align-self: center;
+      margin: 0.5em 0;
     }
     
     .info {
@@ -79,3 +80,21 @@
       gap: 20px;
     }
     
+    @media (width >= 800px){
+      .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .hero{
+        max-width: 350px;
+        width: 350px;
+      }
+  }
+
+  @media (width >= 1400px){
+    .hero{
+      max-width: 400px;
+      width: 400px;
+    }
+}

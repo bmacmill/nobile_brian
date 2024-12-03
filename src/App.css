@@ -63,3 +63,34 @@ p {
     cursor: pointer;
 }
 
+@media (width >= 800px){
+    #root{
+        gap: 100px;
+    }
+    h1 {
+        font-size: 2.5rem; 
+    }
+    h2,
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.25rem;
+      }
+    .sectionTitle {
+    margin-bottom: 3.8rem;
+    }
+}
+
+
+@media (width >= 1400px){
+    #root{
+        gap: 100px;
+    }
+    h1 {
+        font-size: 3rem; 
+    }
+    .sectionTitle {
+    margin-bottom: 4.25rem;
+    }
+}

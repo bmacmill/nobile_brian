@@ -11,35 +11,31 @@ export default function Projects() {
     return (
         <section id="projects" className={styles.container}>
             <h1 className="sectionTitle">Projects</h1>
-            <div className={styles.container}>
+            <div className={styles.projectsContainer}>
                 <ProjectCard
                     src={viberr}
-                    p="Streaming App"
-                    h3="Viberr"
-                    link="#"
+                    p="Quiz App"
+                    h3="Quizzical"
+                    link="https://github.com/bmacmill/quizzical_app"
                 />
-                {/* <a href="#" target="_blank">
-                    <img className={styles.projectImg} src={viberr} alt="viberr logo" />
-                    <h3>Viberr</h3>
-                    <p>streaming app</p>
-                </a> */}
+
                 <ProjectCard
                     src={freshBurger}
-                    link="#"
-                    h3="Fresh Burger"
-                    p="Hamburger Restaurant"
+                    link="https://github.com/bmacmill/notes-app-react"
+                    h3="Notes App"
+                    p="Notes clone"
                 />
                 <ProjectCard
                     src={hipsster}
-                    link="#"
-                    h3="Hipsster"
-                    p="Glasses Shop"
+                    link="https://github.com/bmacmill/tenzies_vite/tree/master/tenzies_scrimba"
+                    h3="Tenzies Game"
+                    p="Tenzies clone"
                 />
                 <ProjectCard
                     src={fitLift}
-                    link="#"
-                    h3="FitLift"
-                    p="Fitness App"
+                    link="https://github.com/bmacmill/nasa-app-react"
+                    h3="NASA Photo"
+                    p="Photo of the day"
                 />
             </div>
         </section>
