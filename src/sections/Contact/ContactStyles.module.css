@@ -22,7 +22,8 @@
     resize: none;
     height: 250px;
   }
-  
+ 
+
   input,
   textarea {
     border-radius: 20px;
@@ -34,6 +35,9 @@
   
   ::placeholder {
     color: var(--form-text-color);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    font-size: .75rem;
   }
   
   input[type='submit'] {

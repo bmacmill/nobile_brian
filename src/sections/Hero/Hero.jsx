@@ -1,9 +1,12 @@
 import styles from "./HeroStyles.module.css"
 import heroImage from "../../assets/hero-img.png"
+import profilePic from "../../assets/person-svgrepo-com.svg"
 import sun from "../../assets/sun.svg"
 import moon from "../../assets/moon.svg"
 import mediumIcon from "../../assets/icons8-medium.svg"
-import mediumIconDark from "../../assets/icons8-medium-drk.svg"
+import mediumIconDark from "../../assets/logo-medium-icon-svgrepo-com.svg"
+
+//icons8-medium-drk.svg
 import linkedInIcon from "../../assets/linkedin-light.svg"
 import linkedInIconDark from "../../assets/linkedin-dark.svg"
 import githubIcon from "../../assets/github-light.svg"
@@ -16,7 +19,7 @@ export default function Hero() {
     const { theme, toggleTheme } = useTheme()
 
     const themeIcon = theme === "light" ? sun : moon
-    const mediumIconLogo = theme === "light" ? mediumIcon : mediumIcon
+    const mediumIconLogo = theme === "light" ? mediumIcon : mediumIconDark
     const linkedInIconLogo = theme === "light" ? linkedInIcon : linkedInIconDark
     const githubIconLogo = theme === "light" ? githubIcon : githubIconDark
 
@@ -24,7 +27,7 @@ export default function Hero() {
     return (
         <section id="hero" className={styles.container}>
             <div>
-                <img className={styles.colorModeContainer} src={heroImage} alt="profile picture of brian nobile" />
+                <img className={styles.colorModeContainer} src={profilePic} alt="profile picture of brian nobile" />
                 <img onClick={toggleTheme} className={styles.colorMode} src={themeIcon} alt="color mode icon" />
             </div>
 
