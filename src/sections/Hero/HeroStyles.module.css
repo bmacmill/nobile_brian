@@ -27,10 +27,13 @@
         align-self: center;
       }
       
-      /* a > img {
-          width: 30px;
-        } */
+  
 
+  .mediumIcon{
+    height: 50px;
+    width: 50px;
+  }
+  
   button {
       background-color: var(--btn-color);
       color: var(--btn-text-color);
